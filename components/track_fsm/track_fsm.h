@@ -12,7 +12,9 @@ typedef enum
     TRACK_LEFT_SMALL,  // 小幅左偏 → 右修正
     TRACK_RIGHT_SMALL,// 小幅右偏 → 左修正
     TRACK_LEFT_BIG,    // 大幅左偏 → 急左转
-    TRACK_RIGHT_BIG    // 大幅右偏 → 急右转
+    TRACK_RIGHT_BIG,    // 大幅右偏 → 急右转
+    TRACK_LEFT_CORNER,   // 左直角转弯
+    TRACK_RIGHT_CORNER   // 右直角转弯
 } track_state_t;
 
 /**
